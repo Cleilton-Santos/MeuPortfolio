@@ -78,10 +78,7 @@ gap: 90px;
     margin: 40px 0;
 }
 .logo-txt{
-    font-family: 'Share Tech', serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 36px;
     color: #b12fb1;
-    display: flex;
 }
