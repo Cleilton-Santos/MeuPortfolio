@@ -1,9 +1,12 @@
 /*Estilo Geral*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Share Tech', sans-serif;
+    font-family: "Poppins", serif;
 }
 body{
     background-color: black;
@@ -21,15 +24,15 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #b12fb1;
     color: #fff;
+    background-color: #b12fb1;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
 }
 /*Estilo do Cabecalho*/
 header{
-    padding: 40px 4%; 
+    padding: 40px 4%;
 }
 header > .interface{
     display: flex;
@@ -78,7 +81,14 @@ gap: 90px;
     margin: 40px 0;
 }
 .logo-txt{
-    font-weight: 400;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
     font-size: 36px;
     color: #b12fb1;
+}
+/*Estilo do Rodape*/
+.rodape{
+    color: #696969;
+    text-align: center;
 }
