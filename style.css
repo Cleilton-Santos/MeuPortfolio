@@ -40,7 +40,7 @@ header > .interface{
     justify-content: space-between;
 }
 header a{
-    color: #696969;
+    color: #7a7979;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -55,6 +55,7 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+    text-shadow: 0px 0px 10px #b12fb1;
 }
 .btn-contato button:hover{
     box-shadow: 0px 0px 8px #b12fb1;
