@@ -88,8 +88,35 @@ gap: 90px;
     font-size: 36px;
     color: #b12fb1;
 }
+/* Contato */
+.form-contato{
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: radial-gradient(circle, #2b2b2b, #696969);
+    opacity: 0.8;
+    color: #fff;
+}
+.input-button{
+    border: 0;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo-contato{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.logo-contato img{
+    padding: 10px;
+}
 /*Estilo do Rodape*/
 .rodape{
+    padding: 30px;
+    margin: 50px;
     color: #696969;
     text-align: center;
 }
